@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.appButton {
+  width: 300px;
+  background-color: #86f5a2;
+  padding: 10px;
+  border: 1px solid #86f5a2;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.appButton:hover {
+  background-color: #3f804a;
+  border: 1px solid #3f804a;
+  cursor: pointer;
+}
+
+.flowersList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

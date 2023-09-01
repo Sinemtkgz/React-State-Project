@@ -1,0 +1,10 @@
+.flowers {
+  width: 350px;
+}
+
+.flowersimg {
+  margin: 10px;
+  border: 1px solid lightcyan;
+  padding: 10px;
+  border-radius: 5px;
+}
